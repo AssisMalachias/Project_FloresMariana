@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body
+{
+    height:100%
+}
+body
+{
+        width:100%;
+        background-image:url("../_imagens/fundofloresmariana.png");
+        background-repeat:no-repeat;
+        background-size: cover;
+}
+.clear
+{
+    clear:both;
+}
+.container
+{
+    width:100%;
+    max-width:1700px;
+    margin:0 auto;
+}

@@ -1,0 +1,142 @@
+/*----------- header cabecalho --------------*/
+.navegado-menu nav 
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+    padding-top:40px;
+}
+header.cabecalho ul li
+{
+  display:inline;
+  margin-left:45px;
+ 
+}
+.login
+{
+    color:#FB4478;
+    font-family: "Open Sans", sans-serif;
+    font-size:1.5em;
+    font-weight:400;
+    transition-duration:3s;
+    transition: .3s;
+    cursor: pointer;
+}
+.login:hover
+{
+    scale: .9;
+    text-shadow: 0px 3px 6px  #FC2546;
+}
+.navagado-menu-flores ul li a
+{
+    list-style-type:none;
+    text-decoration:none;
+    font-family:"Roboto",sans-serif;
+    color:#fff;
+    font-size:17px;
+    letter-spacing:1px;
+    transition-duration:3s;
+    transition: .3s;
+}
+.navagado-menu-flores ul li a:hover
+{
+    scale: .9;
+    color:#F55666;
+    text-shadow: 0px 3px 6px  #FC2546;
+}
+.navagado-menu-flores .login-conta
+{
+    width:146px;
+    height:44px;
+    padding:14px 5px;
+    background-color:#F99CAA;
+    border-radius:27px;
+    text-align: center;
+    font-family:"Roboto",sans-serif;
+    color:#fff;
+    font-weight:500;
+    cursor: pointer;
+    transition-duration:3s;
+    transition: .3s;
+}
+.navagado-menu-flores .login-conta:hover
+{
+    scale: .9;
+    background-color: #F55666;
+    box-shadow:0px 3px 6px  #FC2546;
+}
+/*----------- header cabecalho --------------*/
+
+main.corpoentrucao .container .container-decricao
+{
+    position: absolute;
+    top:40%;
+}
+main.corpoentrucao .titulo h2
+{
+    color:#fff;
+    font-family:"Roboto",sans-serif;
+    font-size:84px;
+    font-weight: 100;
+}
+main.corpoentrucao .titulo p
+{
+    width:700px;
+    color:#fff;
+    font-family:"Roboto",sans-serif;
+    font-size:19px;
+    font-weight:100;
+    margin-bottom:20px;
+}
+.botao-btn button
+{
+    width:150px;
+    height:51px;
+    margin-left:35px;
+    border-radius:35px;
+    border:none;
+    background-color:#F55666;
+    font-family:"Roboto",sans-serif;
+    font-size:17px;
+    color:#fff;
+    cursor: pointer;
+    transition-duration:3s;
+    transition: .3s;
+    margin-bottom:20px;
+}
+.botao-btn .know-more
+{
+    background:transparent;
+    border:1px solid #F55666;
+    color:#EEA6AD;
+}
+.botao-btn button:hover
+{
+    scale: .9;
+    background-color:#e23344;
+}
+.botao-btn .know-more:hover
+{
+    background-color:#f56775;
+    color:#fff;
+}
+.rede-social .lista-social ul li
+{
+    display: inline;
+    margin-top:20px;
+}
+.rede-social .lista-social  li img
+{
+    height:40px;
+    align-items: center;
+    position: relative;
+    left:45px;
+    transition-duration:3s;
+    transition: .3s;
+}
+.rede-social .lista-social  li img:hover
+{
+    scale:.8;
+    box-shadow:0px 3px 6px  #FC2546;
+}
